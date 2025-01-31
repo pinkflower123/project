@@ -1,0 +1,119 @@
+<html>
+ <head>
+  <title>
+   Categories
+  </title>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f8f8f8;
+        }
+        .container {
+            text-align: center;
+            max-width: 800px;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .category {
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 150px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .category:hover {
+            transform: translateY(-10px);
+        }
+        .category img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .category h2 {
+            font-size: 1.2em;
+            font-weight: 400;
+            margin: 0;
+        }
+        @media (max-width: 600px) {
+            .category {
+                width: 100px;
+                padding: 10px;
+            }
+            .category img {
+                width: 70px;
+                height: 70px;
+            }
+            .category h2 {
+                font-size: 1em;
+            }
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <h1>
+    Categories
+   </h1>
+   <div class="categories">
+    <a class="category" href="./cold drinks.html">
+     <img alt="" src="./img/drink.png"/>
+     <h2>
+      Cold Drinks
+     </h2>
+    </a>
+    <a class="category" href="./burgers.html">
+     <img alt="" src="./img/burger.png"/>
+     <h2>
+      Burgers
+     </h2>
+    </a>
+    <a class="category" href="./pizza.html">
+     <img alt="" src="./img/pizza.png"/>
+     <h2>
+      Pizza
+     </h2>
+    </a>
+    <a class="category" href="./wok.html">
+     <img alt="" src="./img/wok.png"/>
+     <h2>
+      Wok
+     </h2>
+    </a>
+    <a class="category" href="./desserts.html">
+     <img alt="" src="./img/cupcake.png"/>
+     <h2>
+      Desserts
+     </h2>
+    </a>
+    <a class="category" href="./pasta.html">
+     <img alt="" src="./img/spaghetti.png"/>
+     <h2>
+      Pasta
+     </h2>
+     </a>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
